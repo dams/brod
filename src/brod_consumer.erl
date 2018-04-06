@@ -92,7 +92,7 @@
 -define(DEFAULT_MIN_BYTES, 0).
 -define(DEFAULT_MAX_BYTES, 1048576).  % 1 MB
 -define(DEFAULT_MAX_WAIT_TIME, 10000). % 10 sec
--define(DEFAULT_SLEEP_TIMEOUT, 1000). % 1 sec
+-define(DEFAULT_SLEEP_TIMEOUT, 50). % 50 ms
 -define(DEFAULT_PREFETCH_COUNT, 10).
 -define(DEFAULT_OFFSET_RESET_POLICY, reset_by_subscriber).
 -define(ERROR_COOLDOWN, 1000).
